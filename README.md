@@ -21,4 +21,4 @@
 - Modrome: https://www.vetpetmon.com
 - Cleanroom for the Cleanroom MMC template: https://cleanroommc.com/
 - Azul for JDK 22: https://www.azul.com/
-- Special thanks to CaliMariGold and Sainagh, happy early/belated birthday lol
+- Special thanks to CalaMariGold and Sainagh, happy early/belated birthday lol
