@@ -18,7 +18,7 @@ osName=platform.system()
 azulURL=["https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-win_x64.zip","zulu22.30.13-ca-jdk22.0.1-win_x64.zip",
 	"https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-macosx_x64.zip","zulu22.30.13-ca-jdk22.0.1-macosx_x64.zip",
 	"https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jdk22.0.1-linux_x64.zip","zulu22.30.13-ca-jdk22.0.1-linux_x64.zip"]
-jdkBinary=["/zulu22.30.13-ca-jdk22.0.1-macosx_x64/zulu-22.jdk/Contents/Home/bin/javaw.exe","/zulu22.30.13-ca-jdk22.0.1-macosx_x64/zulu-22.jdk/Contents/Home/bin/java","zulu22.30.13-ca-jdk22.0.1-linux_x64/bin/java"]
+jdkBinary=["/zulu22.30.13-ca-jdk22.0.1-win_x64/zulu-22.jdk/Contents/Home/bin/javaw.exe","/zulu22.30.13-ca-jdk22.0.1-macosx_x64/zulu-22.jdk/Contents/Home/bin/java","zulu22.30.13-ca-jdk22.0.1-linux_x64/bin/java"]
 # 0 - ZGC
 # 1 - ParNewGC
 jvmARGs=["JvmArgs=\"-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:+ZGenerational\"",
