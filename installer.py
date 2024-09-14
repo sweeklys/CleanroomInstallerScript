@@ -140,7 +140,7 @@ else:
 		file.write(jvmARGs[1])
 
 print()
-print("Now, all you have to do is copy the files from another modpack's .minecraft (or minecraft) folder.\n",+"The forge_early.cfg file shouldn't be replaced, as it contains an important input fix.")
+print("Now, all you have to do is copy the files from another modpack's .minecraft (or minecraft) folder.\n", "The forge_early.cfg file shouldn't be replaced, as it contains an important input fix.")
 print()
 
 
