@@ -1,6 +1,8 @@
 # Cleanroom Installer Script
  Creates an MMC template for Cleanroom Loader via a simple python CLI
 
+Notice: This is for an older install that I know for certain worked with Meatballcraft. If this doesn't work anymore, feel free to send me a PR.
+
  Just click on the `installer.py` file after moving it to an empty folder in your `instances` folder, and follow the instructions given on your command line!
 
  If you are having trouble getting it to run, make sure python is installed and up to date, check your internet connection, and allow Python through a firewall. Administrator permissions are not required to run this script, but if Python needs to run with elevated permissions via sudo mode or UAC, fill out a bug report immediate.
